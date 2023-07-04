@@ -288,7 +288,130 @@ body {
   padding: 1px 10px;
 }
 
-/* Responsive rules */
+/* Articles Section */
+.articles {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+.articles .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.articles .heading h1 {
+  color: #000;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.95px;
+}
+.articles .heading a {
+  border-radius: 50px;
+  background: #232323;
+  color: #fff;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.69px;
+
+  text-decoration: none;
+
+  display: flex;
+  padding: 10px 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.articles .cards {
+  /* border: green solid 1px; */
+}
+.articles .cards .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.articles .cards .card img {
+  display: block;
+  height: 482px;
+  width: 739px;
+
+  border-radius: 20px;
+  object-fit: cover;
+}
+.articles .cards .card h1 {
+  width: 739px;
+
+  color: #000;
+  font-size: 75px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 85px;
+  letter-spacing: -2.25px;
+}
+
+/* Social Media */
+.socialMedia {
+  border: 4px solid #f6f6f6;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  margin: 50px 0px;
+  padding: 80px;
+}
+.socialMedia h1 {
+  color: #000;
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+.socialMedia .btns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.socialMedia .btns a {
+  border-radius: 50px;
+  color: #fff;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.69px;
+
+  text-decoration: none;
+
+  display: flex;
+  padding: 10px 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialMedia .btns .twitter {
+  background: #2c9df1;
+}
+.socialMedia .btns .dribbble {
+  background: #e85488;
+}
+.socialMedia .btns .github {
+  background: linear-gradient(169deg, #bb6bd9 0%, #9b51e0 100%);
+}
+/******** Responsive rules ********/
 @media (width <= 1340px) {
   .container {
     display: flex;
