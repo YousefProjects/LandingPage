@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Navbar */
 .navbar {
   width: 100%;
