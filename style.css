@@ -416,7 +416,98 @@ a {
 
 /******** Responsive rules ********/
 @media only screen and (max-width: 1528px) {
+  /* Navbar */
+  .navbar h1 {
+    display: none;
+  }
+
+  /* Container */
+  .container {
+    width: 95%;
+  }
+
+  /* Intro */
   .intro {
-    background-color: red;
+    flex-direction: column;
+  }
+  .texts .hi {
+    font-size: 28px;
+    text-align: center;
+  }
+  .texts .myName {
+    font-size: 55px;
+    text-align: center;
+    line-height: 55px;
+  }
+  .texts .topics {
+    text-align: center;
+  }
+  .phone {
+    margin-right: 0px;
+  }
+
+  /* Design Process Section */
+  .designProcess {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .designProcess h1 {
+    text-align: center;
+  }
+  .designProcess .cards .raw {
+    width: 100%;
+    flex-direction: column;
+  }
+  .designProcess .card {
+    border-radius: 20px;
+    width: 100%;
+  }
+  .designProcess .card .title {
+    font-size: 28px;
+  }
+  .designProcess .card p {
+    min-height: 100%;
+    font-size: 23px;
+  }
+
+  /* Work Section */
+  .work .heading {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .work .heading h1 {
+    text-align: center;
+  }
+  .work .heading a {
+    padding: 5px 40px;
+  }
+  .work .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work .cards .card img {
+    min-height: 500px;
+  }
+
+  /* Articles Section */
+  .articles .heading {
+    flex-direction: column ;
+    gap: 30px;
+  }
+  .articles .heading h1 {
+    text-align: center;
+  }
+  .articles .heading a {
+    padding: 5px 40px;
+  }
+  .articles .cards{
+    display: flex;
+    justify-content: center;
+  }
+  .articles .cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
 }
