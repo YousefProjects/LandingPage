@@ -431,11 +431,11 @@ a {
     flex-direction: column;
   }
   .texts .hi {
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
   }
   .texts .myName {
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     line-height: 55px;
   }
@@ -444,6 +444,15 @@ a {
   }
   .phone {
     margin-right: 0px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .phone img {
+    height: 400px;
   }
 
   /* Design Process Section */
@@ -454,6 +463,7 @@ a {
   }
   .designProcess h1 {
     text-align: center;
+    font-size: 40px;
   }
   .designProcess .cards .raw {
     width: 100%;
@@ -478,6 +488,7 @@ a {
   }
   .work .heading h1 {
     text-align: center;
+    font-size: 40px;
   }
   .work .heading a {
     padding: 5px 40px;
@@ -492,22 +503,50 @@ a {
 
   /* Articles Section */
   .articles .heading {
-    flex-direction: column ;
+    flex-direction: column;
     gap: 30px;
   }
   .articles .heading h1 {
     text-align: center;
+    font-size: 40px;
   }
   .articles .heading a {
     padding: 5px 40px;
   }
-  .articles .cards{
+  .articles .cards {
     display: flex;
     justify-content: center;
   }
   .articles .cards .card {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
+    align-items: center;
+  }
+  .articles .cards .card img {
+    height: 300px;
+    width: 90%;
+
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .articles .cards .card h1 {
+    min-width: 100%;
+    font-size: 45px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  /* Social Media */
+  .socialMedia {
+    gap: 30px;
+  }
+  .socialMedia h1 {
+    font-size: 24px;
+  }
+  .socialMedia .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
